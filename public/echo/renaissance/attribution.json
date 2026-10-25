@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-22",
+  "museum": "The Metropolitan Museum of Art",
+  "objectId": 459214,
+  "artist": "Albrecht Dürer",
+  "title": "Self-portrait, Study of a Hand and a Pillow (recto); Six Studies of Pillows (verso)",
+  "date": "1493",
+  "creditLine": "Robert Lehman Collection, 1975",
+  "objectUrl": "https://www.metmuseum.org/art/collection/search/459214",
+  "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459214",
+  "isPublicDomain": true,
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "policyUrl": "https://www.metmuseum.org/policies/image-resources",
+  "notes": "Unmodified official web-large JPEG downloads. Display separate historical-art captions; do not present these images as user work or generated Leonardo manuscripts.",
+  "images": [
+    {
+      "file": "durer-observation-1493.jpg",
+      "side": "recto",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/rl/web-large/DP282110.jpg",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/rl/original/DP282110.jpg",
+      "bytes": 258216
+    },
+    {
+      "file": "durer-pillows-1493.jpg",
+      "side": "verso",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/rl/web-large/DP282111.jpg",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/rl/original/DP282111.jpg",
+      "bytes": 304235
+    }
+  ]
+}

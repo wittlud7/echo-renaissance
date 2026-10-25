@@ -1,0 +1,3 @@
+import {env} from 'cloudflare:workers';import {getChatGPTUser} from '../../../chatgpt-auth';import {writeAllowed} from '../../../../lib/vault-validation.mjs';import {beginNeo} from '../../../../lib/neodb.mjs';
+export const dynamic='force-dynamic';
+export async function POST(request:Request){const user=await getChatGPTUser();if(!user)return Response.json({error:'请先登录'},{status:401});if(!writeAllowed(request))return Response.json({error:'请求来源不正确'},{status:403});if(!env.DB)return Response.json({error:'云端尚未就绪'},{status:503});try{return Response.json(await beginNeo(env.DB,user.userId,new URL(request.url).origin),{headers:{'Cache-Control':'no-store'}});}catch{return Response.json({error:'NeoDB 暂未完成连接，请稍后重试；也可以先导入 CSV。'},{status:502});}}

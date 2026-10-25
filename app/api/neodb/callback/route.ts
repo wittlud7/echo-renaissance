@@ -1,0 +1,3 @@
+import {env} from 'cloudflare:workers';import {getChatGPTUser} from '../../../chatgpt-auth';import {finishNeo} from '../../../../lib/neodb.mjs';
+export const dynamic='force-dynamic';
+export async function GET(request:Request){const user=await getChatGPTUser(),url=new URL(request.url);const result=new URL('/echo/index.html',url.origin);result.hash='connections';if(!user||!env.DB||url.searchParams.has('error')){result.searchParams.set('neodb','cancelled');return Response.redirect(result.href,303);}try{await finishNeo(env.DB,user.userId,url.origin,url.searchParams.get('state')||'',url.searchParams.get('code')||'');result.searchParams.set('neodb','ready');}catch{result.searchParams.set('neodb','failed');}return Response.redirect(result.href,303);}

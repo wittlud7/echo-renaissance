@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {similarity,related,recommend,parseCSV,validateBackup} from '../public/echo/core.js';import {catalog,demoEntries} from '../public/echo/data.js';
+test('关联对称、排除自己，提供主题解释',()=>{const a=catalog[0],b=catalog[12];assert.equal(similarity(a,b).score,similarity(b,a).score);assert.ok(similarity(a,b).reasons.includes('共同创作者 · 王家卫'));assert.equal(similarity(a,a).score,0);assert.ok(related(a,catalog).every(r=>r.work.id!==a.id&&r.score>0));});
+test('推荐跨三种媒介，天气和情绪实际改变排序',()=>{const rainy=recommend(catalog,{weather:'雨天',mood:'沉静'}),sunny=recommend(catalog,{weather:'晴天',mood:'振奋'});assert.deepEqual(rainy.map(x=>x.work.type),['书籍','电影','音乐']);assert.notDeepEqual(rainy.map(x=>x.work.id),sunny.map(x=>x.work.id));for(const r of rainy)assert.ok(r.reasons.length&&r.score<=100);});
+test('评分偏好和轮换均可执行，缺少某类型不会报错',()=>{for(let offset=0;offset<8;offset++)assert.equal(recommend(catalog,{entries:demoEntries,offset}).length,3);assert.equal(recommend([]).length,0);assert.equal(recommend([catalog[0]]).length,1);});
+test('CSV 支持 BOM、逗号、换行、双引号与 CRLF',()=>{const r=parseCSV('\uFEFFtitle,type,note\r\n"A, B",书籍,"line1\nline2 ""quoted"""\r\n');assert.equal(r[0].title,'A, B');assert.equal(r[0].note,'line1\nline2 "quoted"');assert.throws(()=>parseCSV('a\n"unclosed'));});
+test('备份拒绝错误评分、缺失数组及重复作品 ID',()=>{const base={version:1,entries:demoEntries,customWorks:[],journal:[]};assert.equal(validateBackup(base),base);assert.throws(()=>validateBackup({...base,entries:[{...demoEntries[0],rating:6}]}));assert.throws(()=>validateBackup({version:1}));assert.throws(()=>validateBackup({...base,customWorks:[catalog[0],catalog[0]]}));});
+
+test('未分类和未知创作者不产生虚假关系',()=>{const a={id:'a',tags:['未分类'],moods:[],weather:[],creator:'创作者待补充'},b={...a,id:'b'};assert.equal(similarity(a,b).score,0);assert.deepEqual(similarity(a,b).reasons,[]);});

@@ -1,0 +1,3 @@
+import {env} from 'cloudflare:workers';import {getChatGPTUser} from '../../../chatgpt-auth';import {writeAllowed} from '../../../../lib/vault-validation.mjs';import {disconnectNeo} from '../../../../lib/neodb.mjs';
+export const dynamic='force-dynamic';
+export async function POST(request:Request){const user=await getChatGPTUser();if(!user)return Response.json({error:'请先登录'},{status:401});if(!writeAllowed(request))return Response.json({error:'请求来源不正确'},{status:403});if(!env.DB)return Response.json({error:'云端尚未就绪'},{status:503});const revoked=await disconnectNeo(env.DB,user.userId);return Response.json({revoked,error:revoked?null:'暂未取得撤销确认，请稍后重试或在 NeoDB 撤销该应用授权。'},{status:revoked?200:502,headers:{'Cache-Control':'no-store'}});}

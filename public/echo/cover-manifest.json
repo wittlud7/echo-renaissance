@@ -1,0 +1,200 @@
+{
+  "echo-0": {
+    "path": "/echo/covers/echo-0.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/In_the_Mood_for_Love",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/45/In_the_Mood_for_Love_movie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "In the Mood for Love",
+    "verifiedDescription": "2000 film by Wong Kar-wai",
+    "width": 265,
+    "height": 376
+  },
+  "echo-1": {
+    "path": "/echo/covers/echo-1.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Norwegian_Wood_%28novel%29_%28Book_Cover%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Norwegian Wood (novel)",
+    "verifiedDescription": "1987 novel by Haruki Murakami",
+    "width": 254,
+    "height": 392
+  },
+  "echo-2": {
+    "path": "/echo/covers/echo-2.jpg",
+    "sourceUrl": "https://music.apple.com/tw/album/%E6%97%85%E8%A1%8C%E7%9A%84%E6%84%8F%E7%BE%A9/818133884?i=818133904&uo=4",
+    "sourceName": "Apple Music / iTunes Search API",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/eb/4d/3d/eb4d3df5-f5dd-409c-b13d-f003caa7d8a6/1400-1.jpg/100x100bb.jpg",
+    "verifiedTitle": "旅行的意義",
+    "verifiedDescription": "陳綺貞 / 旅行的意義 - Single",
+    "width": 100,
+    "height": 100
+  },
+  "echo-3": {
+    "path": "/echo/covers/echo-3.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Manchester_by_the_Sea_(film)",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Manchester_by_the_Sea.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Manchester by the Sea (film)",
+    "verifiedDescription": "2016 film by Kenneth Lonergan",
+    "width": 220,
+    "height": 326
+  },
+  "echo-4": {
+    "path": "/echo/covers/echo-4.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kafka_on_the_Shore",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Kafkaontheshore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Kafka on the Shore",
+    "verifiedDescription": "2002 novel by Haruki Murakami",
+    "width": 264,
+    "height": 376
+  },
+  "echo-5": {
+    "path": "/echo/covers/echo-5.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Async_(album)",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Asyncryuichisakamoto.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Async (album)",
+    "verifiedDescription": "2017 studio album by Ryuichi Sakamoto",
+    "width": 225,
+    "height": 225
+  },
+  "echo-6": {
+    "path": "/echo/covers/echo-6.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Perfect_Days",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Perfect_Days_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Perfect Days",
+    "verifiedDescription": "2023 film by Wim Wenders",
+    "width": 264,
+    "height": 377
+  },
+  "echo-7": {
+    "path": "/echo/covers/echo-7.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Walden",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Walden_Thoreau.jpg/330px-Walden_Thoreau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "verifiedTitle": "Walden",
+    "verifiedDescription": "1854 book by Henry David Thoreau",
+    "width": 330,
+    "height": 556
+  },
+  "echo-8": {
+    "path": "/echo/covers/echo-8.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Common_Jasmine_Orange",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Common_Jasmin_Orange.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Common Jasmine Orange",
+    "verifiedDescription": "2004 studio album by Jay Chou",
+    "width": 300,
+    "height": 331
+  },
+  "echo-9": {
+    "path": "/echo/covers/echo-9.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Interstellar_(film)",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Interstellar (film)",
+    "verifiedDescription": "2014 film by Christopher Nolan",
+    "width": 220,
+    "height": 326
+  },
+  "echo-10": {
+    "path": "/echo/covers/echo-10.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cosmos_(Sagan_book)",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Cosmos_book.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Cosmos (Sagan book)",
+    "verifiedDescription": "1980 book by Carl Sagan",
+    "width": 150,
+    "height": 193
+  },
+  "echo-11": {
+    "path": "/echo/covers/echo-11.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Space_Oddity",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/Bowie_SpaceOdditySingle.jpg",
+    "verifiedTitle": "Space Oddity",
+    "verifiedDescription": "1969 song by David Bowie",
+    "width": 215,
+    "height": 215
+  },
+  "echo-12": {
+    "path": "/echo/covers/echo-12.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chungking_Express",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c0/Chungking_Express.jpg",
+    "verifiedTitle": "Chungking Express",
+    "verifiedDescription": "1994 Hong Kong film by Wong Kar-wai",
+    "width": 259,
+    "height": 383
+  },
+  "echo-13": {
+    "path": "/echo/covers/echo-13.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Littleprince.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "The Little Prince",
+    "verifiedDescription": "1943 novella by Antoine de Saint-Exupéry",
+    "width": 282,
+    "height": 353
+  },
+  "echo-14": {
+    "path": "/echo/covers/echo-14.jpg",
+    "sourceUrl": "https://music.apple.com/tw/album/%E6%97%A5%E5%85%89/1461726842?i=1461726846&uo=4",
+    "sourceName": "Apple Music / iTunes Search API",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f3/2c/1a/f32c1a08-f7dc-fb86-0366-7b9ddff7f256/cover.jpg/100x100bb.jpg",
+    "verifiedTitle": "日光",
+    "verifiedDescription": "蘇打綠 / 春.日光",
+    "width": 100,
+    "height": 100
+  },
+  "echo-15": {
+    "path": "/echo/covers/echo-15.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Soul_(2020_film)",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Soul_%282020_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Soul (2020 film)",
+    "verifiedDescription": "2020 film by Pete Docter",
+    "width": 250,
+    "height": 370
+  },
+  "echo-16": {
+    "path": "/echo/covers/echo-16.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Flowers_for_Algernon",
+    "sourceName": "Wikipedia",
+    "credit": "Cover or poster artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/ea/FlowersForAlgernon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "verifiedTitle": "Flowers for Algernon",
+    "verifiedDescription": "1959 novelette and 1966 novel by Daniel Keyes",
+    "width": 263,
+    "height": 379
+  },
+  "echo-17": {
+    "path": "/echo/covers/echo-17.jpg",
+    "sourceUrl": "https://music.apple.com/us/album/in-the-aeroplane-over-the-sea/1839077554?uo=4",
+    "sourceName": "Apple Music / iTunes Search API",
+    "credit": "Album artwork belongs to its respective rights holders; low-resolution reproduction for identification.",
+    "imageSourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/e3/5c/12e35c39-de5c-b501-3ef0-00f19fb3d513/56627.jpg/100x100bb.jpg",
+    "verifiedTitle": "In the Aeroplane Over the Sea",
+    "verifiedDescription": "Neutral Milk Hotel",
+    "width": 100,
+    "height": 100
+  }
+}

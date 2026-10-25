@@ -1,0 +1,1 @@
+CREATE INDEX `echo_neo_sessions_user_expiry` ON `echo_neo_sessions` (`user_id`,`expires_at`);

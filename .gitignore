@@ -1,0 +1,25 @@
+node_modules/
+output/
+*.zip
+.sites/
+
+dist/
+.next/
+.wrangler/
+.sites-runtime/
+.env*
+!.env.example
+
+*.tsbuildinfo
+
+.vinext/
+outputs/
+
+# Local credentials, browser artifacts and data exports
+.dev.vars*
+.playwright-mcp/
+*.sqlite
+*.sqlite-*
+*.db
+*.tar
+*.tar.gz

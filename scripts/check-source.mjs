@@ -1,0 +1,2 @@
+import {readdirSync} from 'node:fs';import {join} from 'node:path';import {execFileSync} from 'node:child_process';
+let checked=0;for(const folder of ['public/echo','lib'])for(const entry of readdirSync(folder,{withFileTypes:true})){if(entry.isFile()&&/\.(m?js)$/.test(entry.name)){execFileSync(process.execPath,['--check',join(folder,entry.name)],{stdio:'inherit'});checked++;}}console.log(`Syntax verified: ${checked} source modules.`);
