@@ -3,7 +3,7 @@
 
 **早期可运行版本 · Human-centered inspiration & writing**
 
-[在线体验](https://echo-cultural-universe-wit.youngcoin22.chatgpt.site/echo/#atelier) · [运行与部署](docs/DEPLOYMENT.md) · [素材署名与许可](THIRD_PARTY_NOTICES.md)
+[在线体验](https://echo-cultural-universe-wit.youngcoin22.chatgpt.site/echo/#atelier) · [运行与部署](docs/DEPLOYMENT.md) · [MIT 许可证](LICENSE) · [素材署名与许可](THIRD_PARTY_NOTICES.md)
 
 ![回声灵感工作台](docs/images/workbench.png)
 

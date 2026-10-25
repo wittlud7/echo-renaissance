@@ -1,6 +1,6 @@
 # Third-party notices / 第三方素材与代码
 
-上传源码不改变第三方内容的权利归属。仓库目前为私人项目存档，原创代码尚未选择通用开源许可证。
+除下述第三方素材与代码外，本项目原创代码和文档按仓库根目录的 MIT 许可证发布。MIT 许可不改变第三方内容的权利归属，也不自动扩展到这些内容。
 
 ## 历史作品图像
 
@@ -14,6 +14,7 @@ Met 官方 API 将该作品标为公有领域；开放图像按 CC0 提供。完
 
 ## 随项目保留的代码许可
 
+- 本项目原创代码与文档：MIT，见仓库根目录 [LICENSE](LICENSE)。
 - Sites Vite 插件：MIT，Copyright (c) 2026 OpenAI。见 [原许可](scripts/vite/sites-vite-plugin.LICENSE)。
 - shadcn 样式：见 [随附许可](vendor/shadcn-tailwind-4.13.0.LICENSE.md)。
 - npm 依赖遵循各自的软件许可；准确版本由 `package-lock.json` 固定。
