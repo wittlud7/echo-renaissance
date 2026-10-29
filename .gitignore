@@ -18,6 +18,7 @@ outputs/
 # Local credentials, browser artifacts and data exports
 .dev.vars*
 .playwright-mcp/
+.playwright-cli/
 *.sqlite
 *.sqlite-*
 *.db
