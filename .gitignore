@@ -24,3 +24,4 @@ outputs/
 *.db
 *.tar
 *.tar.gz
+.playwright-mcp/
